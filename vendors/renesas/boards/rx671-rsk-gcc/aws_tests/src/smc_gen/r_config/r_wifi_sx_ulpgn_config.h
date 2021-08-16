@@ -42,6 +42,8 @@
 
 #define WIFI_CFG_SCI_SECOND_CHANNEL            11
 
+#define WIFI_CFG_SCI_PCLK_HZ                  (60000000)  // peripheral clock speed; e.g. 60000000 is 60MHz
+
 #define WIFI_CFG_SCI_BAUDRATE                  460800
 
 #define WIFI_CFG_SCI_USE_FLOW_CONTROL          1
@@ -54,7 +56,7 @@
 
 #define WIFI_CFG_CREATABLE_SOCKETS             5
 
-#define WIFI_CFG_SOCKETS_RECEIVE_BUFFER_SIZE   1024*3
+#define WIFI_CFG_SOCKETS_RECEIVE_BUFFER_SIZE   1024*8
 
 #define WIFI_CFG_USE_CALLBACK_FUNCTION         0
 

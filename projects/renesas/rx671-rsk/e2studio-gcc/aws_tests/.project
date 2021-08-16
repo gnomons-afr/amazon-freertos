@@ -35,21 +35,6 @@
 			<type>1</type>
 			<locationURI>AWS_IOT_MCU_ROOT/vendors/renesas/boards/rx671-rsk-gcc/aws_tests/application_code/main.c</locationURI>
 		</link>
-        <link>
-			<name>application_code/renesas_code/main_task.c</name>
-			<type>1</type>
-			<locationURI>AWS_IOT_MCU_ROOT/vendors/renesas/boards/rx671-rsk-gcc/aws_tests/application_code/renesas_code/main_task.c</locationURI>
-		</link>
-        <link>
-			<name>application_code/renesas_code/utility/r_simple_filesystem_on_dataflash.c</name>
-			<type>1</type>
-			<locationURI>AWS_IOT_MCU_ROOT/vendors/renesas/boards/rx671-rsk-gcc/aws_tests/application_code/renesas_code/utility/r_simple_filesystem_on_dataflash.c</locationURI>
-		</link>
-		<link>
-			<name>application_code/renesas_code/utility/r_simple_filesystem_on_dataflash_if.h</name>
-			<type>1</type>
-			<locationURI>AWS_IOT_MCU_ROOT/vendors/renesas/boards/rx671-rsk-gcc/aws_tests/application_code/renesas_code/utility/r_simple_filesystem_on_dataflash_if.h</locationURI>
-		</link>	
 		<link>
 			<name>config_files/FreeRTOSConfig.h</name>
 			<type>1</type>
@@ -194,6 +179,11 @@
 			<name>freertos_kernel/timers.c</name>
 			<type>1</type>
 			<locationURI>AWS_IOT_MCU_ROOT/freertos_kernel/timers.c</locationURI>
+		</link>
+		<link>
+			<name>application_code/renesas_code/main_task.c</name>
+			<type>1</type>
+			<locationURI>AWS_IOT_MCU_ROOT/vendors/renesas/boards/rx671-rsk-gcc/aws_tests/application_code/renesas_code/main_task.c</locationURI>
 		</link>
 		<link>
 			<name>freertos_kernel/include/FreeRTOS.h</name>
@@ -379,6 +369,16 @@
 			<name>tests/integration_test/shadow_system_test.c</name>
 			<type>1</type>
 			<locationURI>AWS_IOT_MCU_ROOT/tests/integration_test/shadow_system_test.c</locationURI>
+		</link>
+		<link>
+			<name>application_code/renesas_code/utility/r_simple_filesystem_on_dataflash.c</name>
+			<type>1</type>
+			<locationURI>AWS_IOT_MCU_ROOT/vendors/renesas/boards/rx671-rsk-gcc/aws_tests/application_code/renesas_code/utility/r_simple_filesystem_on_dataflash.c</locationURI>
+		</link>
+		<link>
+			<name>application_code/renesas_code/utility/r_simple_filesystem_on_dataflash_if.h</name>
+			<type>1</type>
+			<locationURI>AWS_IOT_MCU_ROOT/vendors/renesas/boards/rx671-rsk-gcc/aws_tests/application_code/renesas_code/utility/r_simple_filesystem_on_dataflash_if.h</locationURI>
 		</link>
 		<link>
 			<name>demos/common/http_demo_helpers/http_demo_utils.c</name>
@@ -2231,19 +2231,24 @@
 			<locationURI>AWS_IOT_MCU_ROOT/vendors/renesas/rx_driver_package/v129/r_wifi_sx_ulpgn/src/r_wifi_sx_ulpgn_api.c</locationURI>
 		</link>
 		<link>
+			<name>vendors/renesas/rx_driver_package/v129/r_wifi_sx_ulpgn/src/r_wifi_sx_ulpgn_atcmd.c</name>
+			<type>1</type>
+			<locationURI>AWS_IOT_MCU_ROOT/vendors/renesas/rx_driver_package/v129/r_wifi_sx_ulpgn/src/r_wifi_sx_ulpgn_atcmd.c</locationURI>
+		</link>
+		<link>
+			<name>vendors/renesas/rx_driver_package/v129/r_wifi_sx_ulpgn/src/r_wifi_sx_ulpgn_os_wrap.c</name>
+			<type>1</type>
+			<locationURI>AWS_IOT_MCU_ROOT/vendors/renesas/rx_driver_package/v129/r_wifi_sx_ulpgn/src/r_wifi_sx_ulpgn_os_wrap.c</locationURI>
+		</link>
+		<link>
+			<name>vendors/renesas/rx_driver_package/v129/r_wifi_sx_ulpgn/src/r_wifi_sx_ulpgn_os_wrap.h</name>
+			<type>1</type>
+			<locationURI>AWS_IOT_MCU_ROOT/vendors/renesas/rx_driver_package/v129/r_wifi_sx_ulpgn/src/r_wifi_sx_ulpgn_os_wrap.h</locationURI>
+		</link>
+		<link>
 			<name>vendors/renesas/rx_driver_package/v129/r_wifi_sx_ulpgn/src/r_wifi_sx_ulpgn_private.h</name>
 			<type>1</type>
 			<locationURI>AWS_IOT_MCU_ROOT/vendors/renesas/rx_driver_package/v129/r_wifi_sx_ulpgn/src/r_wifi_sx_ulpgn_private.h</locationURI>
-		</link>
-		<link>
-			<name>vendors/renesas/rx_driver_package/v129/r_wifi_sx_ulpgn/src/r_wifi_sx_ulpgn_queue.c</name>
-			<type>1</type>
-			<locationURI>AWS_IOT_MCU_ROOT/vendors/renesas/rx_driver_package/v129/r_wifi_sx_ulpgn/src/r_wifi_sx_ulpgn_queue.c</locationURI>
-		</link>
-		<link>
-			<name>vendors/renesas/rx_driver_package/v129/r_wifi_sx_ulpgn/src/r_wifi_sx_ulpgn_recv_task.c</name>
-			<type>1</type>
-			<locationURI>AWS_IOT_MCU_ROOT/vendors/renesas/rx_driver_package/v129/r_wifi_sx_ulpgn/src/r_wifi_sx_ulpgn_recv_task.c</locationURI>
 		</link>
 		<link>
 			<name>libraries/abstractions/pkcs11/corePKCS11/source/portable/mbedtls/core_pkcs11_mbedtls.c</name>
